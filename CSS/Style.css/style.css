@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.a1 {
+
+    width: 200px;
+  
+    padding: 10px;
+  
+    border: 2px solid black;
+  
+    margin: 20px;
+    
+    background-color: rgb(235, 135, 185);
+  
+  }
+  .a2{
+    width: 200px;
+  
+    padding: 10px;
+  
+    border: 2px solid black;
+  
+    margin: 20px;
+    
+    background-color: rgb(175, 235, 79);
+    box-sizing: content-box;
+    box-sizing: border-box;
+    
+  }
+  .box{
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+  
+    padding: 10px;
+  
+    border: 2px solid black;
+  
+    margin: 20px;
+  }
+  .t1{
+    background-color: rgb(178, 238, 240);
+    
+  }
+  .caja{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+border-radius:10px ; 
+background-color: rgb(176, 216, 241);
+ }
+ .block{
+   display: block;
+   background-color: #3482db;
+      
+      padding: 10px;
+      margin: 5px;
+      border: 2px solid black;
+      
+ }
+ .inline{
+  display: inline;
+  background-color: #db3458;
+      
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+ }
+ .inline-block{
+  display: inline-block;
+  background-color: #34d5db;
+      
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  
+ }
+ .none{
+  display: none;
+  background-color: #cadb34;
+      
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  
+ }
+ .static{
+  background-color: #34dbd3;
+      
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  position: static;
+
+ }
+ .relative{
+  position: relative;
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: darkorange;
+ }
+  .absolute{
+    position: absolute;
+    padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(208, 255, 0);
+  }
+.fixed{
+  position: fixed;
+    padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(158, 122, 241);
+}
+.sticky{
+  position: sticky;
+    padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(115, 212, 128);
+}
+footer{
+  background-color: rgb(154, 224, 201);
+}
+.flex{
+  display: flex;
+  padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(186, 51, 190);
+
+}
+.justify-content{
+  justify-content: center;
+  padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(13, 95, 189);
+}
+.align-items{
+  align-items: center;
+  padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(13, 179, 54);
+}
+.flex-direction{
+  flex-direction: column;
+
+  padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(236, 155, 33);
+}
+.Grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  grid-gap: 20px;
+
+  padding: 10px;
+
+  margin: 5px;
+  border: 2px solid black;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(33, 155, 236);
+}
